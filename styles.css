@@ -133,5 +133,5 @@ ul li a {
 }
 
 ul li:hover ~ .cursor {
-    transform: scale(4);
+    transform: scale(3);
 }
