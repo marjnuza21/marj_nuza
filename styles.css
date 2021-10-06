@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    font-size: 7em;
+    margin-top: -8em;
+    margin-bottom: -2em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: 0 0 5px white;
+}
+  
+#nuza {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(0 0 20px white);
+    animation: fill 0.5s ease forwards 3s;
+}
+
+#nuza path:nth-child(1){
+ stroke-dasharray: 2401.3134765625;
+ stroke-dashoffset: 2397.3134765625;
+ animation: line-anim 2s ease forwards;
+}
+#nuza path:nth-child(2){
+    stroke-dasharray: 2017.9207763671875;
+    stroke-dashoffset: 2017.9207763671875;
+    animation: line-anim 2s ease forwards 0.3s;
+}
+#nuza path:nth-child(3){
+    stroke-dasharray: 1912.2421875;
+    stroke-dashoffset: 1912.2421875;
+    animation: line-anim 2s ease forwards 0.6s;
+    
+}
+#nuza path:nth-child(4){
+    stroke-dasharray: 1974.150634765625;
+    stroke-dashoffset: 1974.150634765625;
+    animation: line-anim 2s ease forwards 0.9s;
+}
+@keyframes line-anim {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes fill {
+    from {
+        fill: transparent;
+    }
+    to {
+        fill: white;
+    }
+}
+
+p a
+{  
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: #202020;
+    font-weight: bold;
+    display: block;
+    position: relative;
+    font-size: 4em;
+    margin-top: 8em;
+    margin-bottom: -10em;
+    margin-left: -13em;
+    transition: 0.2s;
+   
+}
+
+p :hover  {
+    color: white;
+    text-shadow: 0 0 10px white,
+                 0 0 20px white,
+                 0 0 40px white,
+                 0 0 80px white;
+}
+
+/*start of main page*/
+
+body {
+    background: #181818;
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin: 40px 0;
+    font-size: 5em;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+
+.cursor {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    border-radius : 50%;
+    background: white;
+    transition: translate(-50%, -50%);
+    pointer-events: none;
+    mix-blend-mode: difference;
+}
+
+ul li:hover ~ .cursor {
+    transform: scale(4);
+}
