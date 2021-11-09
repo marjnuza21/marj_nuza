@@ -63,7 +63,6 @@ h1 {
         fill: white;
     }
 }
-
 p a
 {  
     font-family:'Courier New', Courier, monospace;
@@ -86,6 +85,9 @@ p :hover  {
                  0 0 20px white,
                  0 0 40px white,
                  0 0 80px white;
+}
+@-ms-viewport{
+  width: device-width;
 }
 
 /*start of main page*/
