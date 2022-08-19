@@ -1,17 +1,26 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    text-align: center;
-    display: block;
+    position: absolute;
     font-size: 7em;
-    margin-top: -8em;
+    margin-top: -10em;
+    margin-bottom: -2em;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: 0 0 5px white;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    display: block;
+    font-size: 11em;
+    margin-top: -5em;
     margin-bottom: -2em;
     margin-left: 0;
     margin-right: 0;
@@ -20,14 +29,17 @@ h1 {
     text-shadow: 0 0 5px white;
 }
   
+  
 #nuza {
     position: absolute;
+    display: block;
     top: 50%;
-    left: 50%;
+    left: 53%;
     transform: translate(-50%, -50%);
     filter: drop-shadow(0 0 20px white);
     animation: fill 0.5s ease forwards 3s;
 }
+
 
 #nuza path:nth-child(1){
  stroke-dasharray: 2401.3134765625;
@@ -63,20 +75,17 @@ h1 {
         fill: white;
     }
 }
+
 p a
 {  
     font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
     text-decoration: none;
     color: #202020;
-    font-weight: bold;
     display: block;
-    position: relative;
-    font-size: 4em;
-    margin-top: 8em;
-    margin-bottom: -10em;
-    margin-left: -13em;
-    transition: 0.2s;
-   
+    font-size: 3em;
+    margin-top: 15em;
+    transition: 0.2s;    
 }
 
 p :hover  {
@@ -85,9 +94,6 @@ p :hover  {
                  0 0 20px white,
                  0 0 40px white,
                  0 0 80px white;
-}
-@-ms-viewport{
-  width: device-width;
 }
 
 /*start of main page*/
@@ -121,7 +127,6 @@ ul li a {
     text-decoration: none;
     color: white;
     transition: 0.2s;
-    
 }
 
 .cursor {
@@ -136,6 +141,5 @@ ul li a {
 }
 
 ul li:hover ~ .cursor {
-    transform: scale(3);
+    transform: scale(4);
 }
-
