@@ -89,7 +89,8 @@ p a
     
     h1 {
 
-        margin-top: -5em;
+        font-size: 12em;
+        margin-top: -6em;
 
     }
 p a
@@ -103,10 +104,19 @@ p :hover  {
                  0 0 20px white,
                  0 0 40px white,
                  0 0 80px white;
+}   
 }
 
+
+@media screen and (min-width:2000px) {
+    h1 {
+
+        margin-top: -5em;
+
+    }
     
 }
+
 
 /*start of main page*/
 
