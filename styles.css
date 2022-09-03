@@ -4,7 +4,7 @@
     overflow: hidden;
 }
 
-h1 {
+.marj {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     position: absolute;
@@ -87,7 +87,7 @@ p a
 
 @media screen and (min-width:785px) {
     
-    h1 {
+    .marj {
 
         font-size: 12em;
         margin-top: -6em;
@@ -109,7 +109,7 @@ p :hover  {
 
 
 @media screen and (min-width:2000px) {
-    h1 {
+    .marj {
 
         margin-top: -5em;
 
