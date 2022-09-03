@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 .marj {
@@ -88,7 +87,6 @@ p a
 @media screen and (min-width:785px) {
     
     .marj {
-
         font-size: 12em;
         margin-top: -6em;
 
@@ -104,9 +102,9 @@ p :hover  {
                  0 0 20px white,
                  0 0 40px white,
                  0 0 80px white;
-}   
 }
 
+}
 
 @media screen and (min-width:2000px) {
     .marj {
@@ -116,7 +114,6 @@ p :hover  {
     }
     
 }
-
 
 /*start of main page*/
 
