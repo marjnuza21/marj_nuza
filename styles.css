@@ -9,6 +9,7 @@ h1 {
     font-size: 13em;
     text-align: center;
     padding: 50px;
+    margin-left: -1%;
     margin-top: 50%;
     text-shadow: 0 0 10px white,
     0 0 20px white,             
@@ -19,7 +20,7 @@ h1 {
 #nuza {
     text-align: center;
     padding: 50px;
-    filter: drop-shadow(0 0 10px white);
+    filter: drop-shadow(0 0 20px white);
     animation: fill 0.5s ease forwards 4.3s;
 }
 
@@ -63,7 +64,7 @@ footer {
     font-family: 'Courier New', Courier, monospace;
     font-size: 3em;
     padding: 50px; 
-    margin-top: 40%; 
+    margin-top: 35%; 
     color: white;
     text-align: center;
 }
