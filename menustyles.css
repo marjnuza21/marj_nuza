@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    overflow: hidden;
+}
+
+
+ul {
+    font-family: sans-serif;
+    padding: 30px;
+    margin-top: 40%;
+    margin-left: 25%;
+    margin-right: auto;
+    position: absolute;
+    display: block;
+    text-align: center;
+    flex-direction: column;
+    align-items: left;
+    animation: mymove 5s;
+    text-shadow: 5px 0px 0px white;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    margin: 40px 0;
+    font-size: 7em;
+    text-decoration: none;
+    color: #181818;
+    transition: 0.2s;
+}
+
+@keyframes mymove {
+    from {left: -750px;}
+    to {left: 0px;}
+}
+@keyframes changecolor {
+    from {color: #181818;}
+    to {color: white;}
+}
+
