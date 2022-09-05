@@ -18,11 +18,14 @@ h1 {
 }
 
 #nuza {
+    display: block;
     text-align: center;
-    padding: 50px;
-    filter: drop-shadow(0 0 20px white);
-    animation: fill 0.5s ease forwards 4.3s;
+    margin-left: auto;
+    margin-right: auto;
     border: 5px solid white;
+    padding: 50px;
+    filter: drop-shadow(0 0 10px white);
+    animation: fill 0.5s ease forwards 4.3s;
 }
 
 
