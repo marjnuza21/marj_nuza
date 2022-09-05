@@ -60,11 +60,13 @@ h1 {
     }
 }
 
-footer {
+footer a{
     font-family: 'Courier New', Courier, monospace;
     font-size: 3em;
     padding: 50px; 
-    margin-top: 35%; 
+    text-align: center;
     color: white;
+    margin-top:30%;
+    display: block;
     text-align: center;
 }
