@@ -22,6 +22,7 @@ h1 {
     padding: 50px;
     filter: drop-shadow(0 0 20px white);
     animation: fill 0.5s ease forwards 4.3s;
+    border: 5px solid white;
 }
 
 
