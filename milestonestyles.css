@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+    list-style: none;
+    margin-right: 1em;
+
+}
+
+li a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: white;
+    text-shadow: 2px 2px 5px white;
+    text-decoration: none;
+    float: left;
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+#EDU {
+    font-family:sans-serif;
+    font-size: larger;
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    position:absolute;
+    display: block;
+    align-items: left;
+    color: white;
+    flex-direction: column;
+    color: #181818;
+    text-shadow: 2px 2px 5px white;
+
+    }
+
+#Career {
+    font-family:sans-serif;
+    font-size: larger;
+    padding: 30px;
+    margin-top: 20px;
+    position:absolute;
+    margin-left: 190px;
+    display: block;
+    text-align: center;
+    flex-direction: column;
+    align-items: right;
+    color: #181818;
+    text-shadow: 2px 2px 5px white;
+    }
+
+#Present {
+    font-family:sans-serif;
+    padding: 30px;
+    font-size: medium;
+    margin-top: 130px;
+    position:absolute;
+    margin-left: 160px;
+    display: block;
+    text-align: center;
+    flex-direction: column;
+    align-items: right;
+    animation: changecolor 40s;
+    color: white;
+}
+
+#N2018 {
+    font-family:sans-serif;
+    font-size: medium;
+    padding: 40px;
+    margin-top: 200px;
+    margin-left: 10px;
+    margin-right: 170px;
+    position:absolute;
+    display: block;
+    text-align: center;
+    flex-direction: column;
+    animation: changecolor 35s;
+    color: white;
+
+}
+
+#N2017 {
+    font-family:sans-serif;
+    padding: 40px;
+    font-size: medium;
+    margin-top: 270px;
+    position:absolute;
+    margin-left: 160px;
+    display: block;
+    text-align: center;
+    flex-direction: column;
+    align-items: right;
+    animation: changecolor 30s;
+    color: white;
+}
+
+#A2017 {
+    font-family:sans-serif;
+    font-size: medium;
+    padding: 40px;
+    margin-top: 340px;
+    margin-left: 10px;
+    margin-right: 170px;
+    position:absolute;
+    display: block;
+    text-align: center;
+    flex-direction: column;
+    animation: changecolor 25s;
+    color: white;
+}
+
+
+#J2015 {
+    font-family:sans-serif;
+    padding: 40px;
+    font-size: medium;
+    margin-top: 420px;
+    position:absolute;
+    margin-left: 160px;
+    display: block;
+    text-align: center;
+    flex-direction: column;
+    align-items: right;
+    animation: changecolor 20s;
+    color: white;
+}
+
+#A2012 {
+    font-family:sans-serif;
+    font-size: medium;
+    padding: 40px;
+    margin-top: 480px;
+    margin-left: 10px;
+    margin-right: 170px;
+    position:absolute;
+    display: block;
+    text-align: center;
+    flex-direction: column;
+    animation: changecolor 15s;
+    color: white;
+}
+
+@keyframes changecolor {
+    from {color: #181818;}
+    to {color: white;}
+}
