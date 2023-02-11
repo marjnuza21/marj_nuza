@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    overflow: auto;
+}
+
+body {
+    background-color: #181818;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.header1 {
+    padding: 10%;
+    justify-content: space-between;
+}
+.container1 {
+    justify-content: space-between;
+}
+
+.mydp {
+    padding: 3%;
+    margin-left: 8%;
+    display: inline-block;
+    text-decoration: none;
+    width: 30%;
+    height: 30%;
+}
+
+.connect {
+    padding: 3%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 13%;
+    margin-left: 8%;
+    font-size: 12px;
+    font-weight: 100;
+    box-shadow: 4px 4px 10px white;
+    color:beige;
+    border-radius: 30px;
+    border-color: white;
+}
+
+.header2 {
+    padding: 10%;
+    margin-top: 2px;
+    height: auto;
+    text-align: center;
+}
+
+.container2 {
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+    text-align: center;
+    border-top: 8px double white;
+    border-bottom: 8px double white;
+    border-color: white;
+
+}
+
+.container2 img {
+    margin: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 8%;
+    height: 8%;
+    display: inline-block;
+    box-shadow: 2px 2px 2px white;
+}
+
+.category {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    flex-direction: column;
+    color: #181818;
+    text-shadow: 0 0 10px white,
+    0 0 20px white,             
+    0 0 40px white;
+
+}
+main {
+    padding: 5%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+}
+
+footer {
+    border-top: 8px double white;
+    padding: 3%;
+    height: auto;
+    text-align: center;
+}
