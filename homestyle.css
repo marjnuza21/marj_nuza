@@ -9,35 +9,82 @@ body {
     color: white;
 }
 
+
 .header1 {
     padding: 10%;
     justify-content: space-between;
 }
+
 .container1 {
-    justify-content: space-between;
+    background-color: #181818;
+
 }
 
 .mydp {
     padding: 3%;
-    margin-left: 8%;
-    display: inline-block;
-    text-decoration: none;
-    width: 30%;
-    height: 30%;
+    
+    float: left;
+    width: 40%;
 }
+.mydp img {
+    margin-left: 25%;
+    text-decoration: none;
+    width: 70%;
+    height: 70%;
+}
+ 
+.button_wrap {
+    float: center;
+    width: 50%;
+    height: 50%;
+    margin-top: 10%;
+} 
 
-.connect {
-    padding: 3%;
-    display: inline-block;
-    text-align: center;
-    margin-bottom: 13%;
-    margin-left: 8%;
+/*
+.span {
+    float: right;
+    justify-content: center;
+    padding: 1%;
     font-size: 12px;
     font-weight: 100;
-    box-shadow: 4px 4px 10px white;
-    color:beige;
+    margin-top: 13%;
+    margin-right: 18%;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    background-color: #181818;
     border-radius: 30px;
-    border-color: white;
+} */
+
+.text {
+    padding: 5px;
+    margin-left: 3%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #181818;
+    box-shadow: 4px 4px 15px white;
+    border-radius: 30px;
+    position: absolute;
+
+}
+
+.socmed {
+    padding: 3.5%;
+    margin-left: 7%;
+    align-items: center;
+    width: 60%;
+    background-color: white;
+    border-radius: 30px;
+
+}
+
+.socmed img {
+    width: 30%;
+    margin-top: 4%;
+    display: inline-block;
+    box-shadow: 4px 4px 15px #181818;
+    border-radius: 30px;
 }
 
 .header2 {
