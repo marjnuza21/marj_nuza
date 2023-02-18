@@ -57,8 +57,8 @@ body {
 } */
 
 .text {
-    padding: 5%;
-    margin-left: 4%;
+    padding: 4%;
+    margin-left: 3%;
     text-align: center;
     text-decoration: none;
     color: white;
@@ -66,20 +66,33 @@ body {
     box-shadow: 4px 4px 15px white;
     border-radius: 30px;
     position: absolute;
+    transition-duration: 10s;
 
 }
 
 .socmed {
-    padding: 3.5%;
-    margin-left: 7%;
+    padding: 3%;
+    margin-left: 15%;
     align-items: center;
     width: 60%;
     background-color: #181818;
     border-radius: 30px;
     display: none;
 
+
 }
 
+.github{
+    animation: icon-anim 6s ease;
+}
+
+.linkedin{
+    animation: icon-anim 8s ease;
+}
+
+.ig{
+    animation: icon-anim 10s ease;
+}
 .socmed img {
     width: 30%;
     margin-top: 4%;
@@ -144,4 +157,9 @@ footer {
     padding: 3%;
     height: auto;
     text-align: center;
+}
+
+@keyframes icon-anim{
+    from {opacity: 0;}
+    to {opacity: 100;}
 }
