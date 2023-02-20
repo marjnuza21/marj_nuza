@@ -1,84 +1,111 @@
-* {
-    margin: 0;
-    overflow: hidden;
-}
-
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #181818;
-    font-size: 13em;
-    text-align: center;
-    padding: 50px;
-    margin-left: -1%;
-    margin-top: 50%;
-    text-shadow: 0 0 10px white,
-    0 0 20px white,             
-    0 0 30px white;
-
-}
-
-#nuza {
-    display: block;
-    width: 800px;
-    height:300px;
-    text-align: center;
-    margin-left: 7%;
-    padding: 40px;
-    filter: drop-shadow(0 0 10px white);
-    animation: fill 0.5s ease forwards 4.3s;
-}
-
-#nuza path:nth-child(1){
- stroke-dasharray: 2401.3134765625;
- stroke-dashoffset: 2397.3134765625;
- animation: line-anim 3.5s ease forwards;
-}
-#nuza path:nth-child(2){
-    stroke-dasharray: 2017.9207763671875;
-    stroke-dashoffset: 2017.9207763671875;
-    animation: line-anim 3.5s ease forwards 0.4s;
-}
-#nuza path:nth-child(3){
-    stroke-dasharray: 1912.2421875;
-    stroke-dashoffset: 1912.2421875;
-    animation: line-anim 3.5s ease forwards 0.8s;
-    
-}
-#nuza path:nth-child(4){
-    stroke-dasharray: 1974.150634765625;
-    stroke-dashoffset: 1974.150634765625;
-    animation: line-anim 3.5s ease forwards 0.12s;    
-}
-
-footer a{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 3em;
-    padding: 50px; 
-    color: white;
-    margin-top:30%;
-    display: block;
-    text-align: center;
-    text-shadow: 5px 5px 10px white;
-    text-decoration: none;
-    animation: changecolor 10s;
-    
-}
-@keyframes line-anim {
-    to {stroke-dashoffset: 0;
+/* The following codes are designed for Smart Phone view. */
+@media screen and (max-device-width: 767px){
+    * {
+        overflow: hidden;     
     }
-}
-@keyframes fill {
+
+    .main-layout {
+        background-color: #181818;
+        min-height: 100vh;
+        min-height: 100dvh;
+        display: grid;
+        grid-template-rows: 45% 45% 10%;
+        text-align: center;
+        align-items: center;
+        text-decoration: none;
+
+        
+    }
+ 
+    .div1 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #181818;
+        font-weight: bolder;
+        font-size: 13em;
+        align-self: flex-end;
+        padding-bottom: 2%;
+        text-shadow: 0 0 10px white,
+        0 0 20px white,             
+        0 0 30px white;
+    }
+
+    .div2 {
+        justify-self: center;
+        align-self: flex-start;
+        width: 85%;
+        height: 85%;
+        padding-top: 5%;
+        filter: drop-shadow(0 0 10px white);
+    }
+    #nuza {
+        animation: fill 0.5s ease forwards 4.3s;
+        
+    }
+    }
+
+    #nuza path:nth-child(1){
+        stroke-dasharray: 2401.3134765625;
+        stroke-dashoffset: 2397.3134765625;
+        animation: line-anim 3.5s ease forwards;
+    }
+    #nuza path:nth-child(2){
+        stroke-dasharray: 2017.9207763671875;
+        stroke-dashoffset: 2017.9207763671875;
+        animation: line-anim 3.5s ease forwards 0.4s;
+    }
+    #nuza path:nth-child(3){
+        stroke-dasharray: 1912.2421875;
+        stroke-dashoffset: 1912.2421875;
+        animation: line-anim 3.5s ease forwards 0.8s;  
+    }
+    #nuza path:nth-child(4){
+        stroke-dasharray: 1974.150634765625;
+        stroke-dashoffset: 1974.150634765625;
+        animation: line-anim 3.5s ease forwards 0.12s;    
+    }
+
+    .div3 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 3em;
+        color: white;
+        text-decoration: solid;
+        align-self: flex-start;
+        text-shadow: 5px 5px 10px white;
+        animation: changecolor 10s;
+    }
+
+    @keyframes float {
+        0% {
+            box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+            transform: translatey(0px);
+        }
+        50% {
+            box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+            transform: translatey(-20px);
+        }
+        100% {
+            box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+            transform: translatey(0px);
+        } 
+    }
+
+    @keyframes line-anim {
+    to {stroke-dashoffset: 0;
+        }
+    }
+    @keyframes fill {
     from {
         fill: transparent;
     }
     to {
         fill: white;
     }
-}
-@keyframes changecolor {
+    }
+    @keyframes changecolor {
     from {color: #181818;}
     to {color: white;}
-}
+    }
+
 
 
 
