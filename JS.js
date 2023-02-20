@@ -5,5 +5,6 @@ for(let i = 0; i<nuza.length; i++){
 }
 
 function OpenHome() {
-  window.open("home.html");
+  location.href = "home.html"
  }
+
