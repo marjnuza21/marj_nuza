@@ -1,257 +1,94 @@
-
 * {
-    margin: 0;
-    background-color: #181818;
-   
+    overflow: hidden; 
 }
-   
+
 .main-layout {
-    overflow: hidden;  
+    background-color: #181818;
     min-height: 100vh;
     min-height: 100dvh;
     display: grid;
-    color: white;
-    grid-template-rows: 18% 11% 10% 6% 49% 6%;
-    font-family:'Raleway', sans-serif;
-    
-}
-
-.header {
-    display: grid;
-    grid-template-columns: 35% 65%;
-}
-
-.avatar {
-   text-align: right;
-   align-self: center;
-   padding: 2%;
-}
-
-.avatar img {
-    width: 75%;
-    height: 75%;
-       
-} 
-
-.contacts {
+    grid-template-rows: 45% 45% 10%;
     text-align: center;
-    /*position: relative;*/
-    align-self: center;
+    text-decoration: none;   
 }
 
-.lets_connect {
-    font-size: clamp(1rem, 1vw, 1.5rem);
-    animation: blinking-shadow 8s infinite;
-    border-radius: 30px;
-    margin-left: 17%;
-    margin-right: 17%;
-    padding: 5%;
+.marj {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #181818;
+    font-weight: bolder;
+    font-size: clamp(.5rem, 18vw, 18rem);
+    align-self: flex-end;
+    padding-bottom: 2%;
+    text-shadow: 0 0 10px white,
+                 0 0 20px white,             
+                 0 0 30px white;
 }
 
-.social_icons {
-    display: none;
+.nuza {
     justify-self: center;
     align-self: center;
+    width: 85%;
+    height: 85%;
+    filter: drop-shadow(0 0 10px white);
 }
 
-.social_icons img {
-    width: 17%;
-    display: inline-block;
-    border-radius: 30px;
+#nuza {
+    animation: fill 0.5s ease forwards 4.3s; 
 }
 
-.github{
-    animation: icon-anim 6s ease;
+#nuza path:nth-child(1){
+    stroke-dasharray: 2401.3134765625;
+    stroke-dashoffset: 2397.3134765625;
+    animation: line-anim 3.5s ease forwards;
+}
+#nuza path:nth-child(2){
+    stroke-dasharray: 2017.9207763671875;
+    stroke-dashoffset: 2017.9207763671875;
+    animation: line-anim 3.5s ease forwards 0.4s;
+}
+#nuza path:nth-child(3){
+    stroke-dasharray: 1912.2421875;
+    stroke-dashoffset: 1912.2421875;
+    animation: line-anim 3.5s ease forwards 0.8s;  
+}
+#nuza path:nth-child(4){
+    stroke-dasharray: 1974.150634765625;
+    stroke-dashoffset: 1974.150634765625;
+    animation: line-anim 3.5s ease forwards 0.12s;    
 }
 
-.linkedin{
-    animation: icon-anim 8s ease;
-}
-
-.ig{
-    animation: icon-anim 10s ease;
-}
-
-
-
-.menu {
-    border-top: 8px white double;
-    border-bottom: 8px white double;
-    background-color: #181818;
-    text-align: center;
-    align-self: center;
-}
-
-.menu img {
-    margin: 2%;
-    width: 11%;
-    display: inline-block;
-    border-radius: 3%;
-}
-/*
-.main {
-    background-color: #181818;
-    align-self: flex-start;
-    display: grid;
-    margin-top: 5%;
-    grid-template-rows: 15% 85%;
-    margin-left: 10%;
-    margin-right: 10%;
-}*/
-
-.current_page {
-    margin-top: 5%;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    align-self: flex-start;
-    font-size: clamp(1.5rem, 2vw, 3rem);
-    font-weight: bolder;
+.explore {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: clamp(3rem, 3vw, 3rem);
     color: white;
-    flex-direction: column;
-    color: #181818;
-    text-shadow: 0 0 10px white,
-    0 0 15px white,             
-    0 0 25px white;
-}
+    text-decoration: solid;
+    align-self: flex-start;
+    text-shadow: 3px 5px 10px white;
+    animation: changecolor 10s;
+    }
 
-.ask_bot {
-    background-color: transparent;
-    align-self: center;
-    margin-left: 10%;
-    width: 100%;
-}
-
-.yes {
-     color: white;
-     background-color: #181818;
-     padding: 4%;
-     border-radius: 50%;
-
-}
-
-.no {
-    color: white;
-    background-color: #181818;
-    padding: 4%;
-    border-radius: 50%;
-}
-
-.content {
-    font-family: 'Raleway', sans-serif;
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-size: medium;
-    font-size: clamp(1rem, 1vw, 2rem);
-
-}
-
-.footer {
-    border-top: 8px white double;
-    padding: 2%;
-    flex-wrap: wrap;
-    text-align: center;
-    align-self: center;
-    font-size: clamp(1rem, 1vw, 3rem);
-}
-
-
-@keyframes icon-anim{
-    from {opacity: 0;}
-    to {opacity: 100;}
-}
-@keyframes blinking-shadow{
+@keyframes line-anim {
+    to {stroke-dashoffset: 0;
+        }
+    }
+    @keyframes fill {
     from {
-        box-shadow: 0px 0px 0px #181818;
+        fill: transparent;
     }
     to {
-        box-shadow: 4px 4px 15px white;
+        fill: white;
     }
-}
-@keyframes typing {
-    from {
-        width: 0
     }
-    to {
-        width: 100%
-    }
-}
-
-@media screen and (min-device-width: 416px){
-    .main-layout {
-        margin-left: 15%;
-        margin-right: 15%;
+    @keyframes changecolor {
+    from {color: #181818;}
+    to {color: white;}
     }
 
-}
-    
 @media screen and (min-device-width: 1024px){
-    .main-layout {
-        grid-template-rows: 25% 10% 10% 50% 5%;
-        margin-left: 20%;
-        margin-right: 20%;
-        background-color: #181818;
-    }
-    
-    .avatar img {
-         width: 55%;
-         height: 55%;
-         
-     } 
-
-    .menu {
-        border-top: 15px white double;
-        border-bottom: 15px white double;
-      
-    }
-    
-    .menu img {
-        margin: 2%;
-        width: 5%;
-    }
-
-    .lets_connect {
-        border-radius: 50px;
-        margin-left: 32%;
-        margin-right: 32%;
-        padding: 3%;
-    
-    }
-    
-    
-    .social_icons img {
-        width: 7%;
-        margin: .5%;
-        display: inline-block;
-        border-radius: 30px;
-    }
-
-    .current_page {
-        margin-top: 2%;
-        padding: 2%;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
+    .nuza {
+        width: 50%;
+        height: 70%;
         align-self: flex-start;
-        font-size: clamp(1.5rem, 2vw, 3rem);
-        font-weight: bolder;
-        color: white;
-        color: #181818;
-        text-shadow: 0 0 10px white,
-                     0 0 20px white,             
-                     0 0 25px white;
-    
-    }
-    
-    .content {
-        font-size: medium;
-        font-size: clamp(1rem, 1vw, 2rem);
-        align-self: center;
-    }
-    
-
-    .footer{
-        border-top: 15px white double;
         
     }
-     
 }
