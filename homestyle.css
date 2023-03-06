@@ -1,85 +1,63 @@
+
 * {
     margin: 0;
-    overflow: auto;
-}
-
-body {
     background-color: #181818;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+   
+.main-layout {
+    overflow: hidden;  
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: grid;
     color: white;
-}
-
-
-.header1 {
-    padding: 10%;
-    justify-content: space-between;
-}
-
-.container1 {
-    background-color: #181818;
-
-}
-
-.mydp {
-    padding: 3%;
+    grid-template-rows: 18% 11% 10% 6% 49% 6%;
+    font-family:'Raleway', sans-serif;
     
-    float: left;
-    width: 40%;
 }
-.mydp img {
-    margin-left: 25%;
-    text-decoration: none;
-    width: 70%;
-    height: 70%;
+
+.header {
+    display: grid;
+    grid-template-columns: 35% 65%;
 }
- 
-.button_wrap {
-    float: center;
-    width: 50%;
-    height: 50%;
-    margin-top: 10%;
+
+.avatar {
+   text-align: right;
+   align-self: center;
+   padding: 2%;
+}
+
+.avatar img {
+    width: 75%;
+    height: 75%;
+       
 } 
 
-/*
-.span {
-    float: right;
-    justify-content: center;
-    padding: 1%;
-    font-size: 12px;
-    font-weight: 100;
-    margin-top: 13%;
-    margin-right: 18%;
-    width: 25%;
-    height: 100%;
+.contacts {
     text-align: center;
-    background-color: #181818;
-    border-radius: 30px;
-} */
-
-.text {
-    padding: 4%;
-    margin-left: 3%;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    background-color: #181818;
-    box-shadow: 4px 4px 15px white;
-    border-radius: 30px;
-    position: absolute;
-    transition-duration: 10s;
-
+    /*position: relative;*/
+    align-self: center;
 }
 
-.socmed {
-    padding: 3%;
-    margin-left: 10%;
-    align-items: center;
-    width: 60%;
-    background-color: #181818;
+.lets_connect {
+    font-size: clamp(1rem, 1vw, 1.5rem);
+    animation: blinking-shadow 8s infinite;
     border-radius: 30px;
+    margin-left: 17%;
+    margin-right: 17%;
+    padding: 5%;
+}
+
+.social_icons {
     display: none;
+    justify-self: center;
+    align-self: center;
+}
 
-
+.social_icons img {
+    width: 17%;
+    display: inline-block;
+    border-radius: 30px;
 }
 
 .github{
@@ -93,73 +71,204 @@ body {
 .ig{
     animation: icon-anim 10s ease;
 }
-.socmed img {
-    width: 30%;
-    margin-top: 4%;
-    display: inline-block;
-    box-shadow: 4px 4px 15px #181818;
-    border-radius: 30px;
-}
 
-.header2 {
-    padding: 10%;
-    margin-top: 2px;
-    height: auto;
+
+
+.menu {
+    border-top: 8px white double;
+    border-bottom: 8px white double;
+    background-color: #181818;
     text-align: center;
+    align-self: center;
 }
 
-.container2 {
-    justify-content: center;
-    margin: 0px;
-    padding: 0px;
-    flex-wrap: wrap;
-    text-align: center;
-    border-top: 8px double white;
-    border-bottom: 8px double white;
-    border-color: white;
-
-}
-
-.container2 img {
-    margin: 8px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
-    width: 8%;
-    height: 8%;
+.menu img {
+    margin: 2%;
+    width: 11%;
     display: inline-block;
-    box-shadow: 2px 2px 2px white;
+    border-radius: 3%;
 }
+/*
+.main {
+    background-color: #181818;
+    align-self: flex-start;
+    display: grid;
+    margin-top: 5%;
+    grid-template-rows: 15% 85%;
+    margin-left: 10%;
+    margin-right: 10%;
+}*/
 
-.category {
+.current_page {
+    margin-top: 5%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 25px;
+    align-self: flex-start;
+    font-size: clamp(1.5rem, 2vw, 3rem);
     font-weight: bolder;
     color: white;
     flex-direction: column;
     color: #181818;
     text-shadow: 0 0 10px white,
-    0 0 20px white,             
-    0 0 40px white;
+    0 0 15px white,             
+    0 0 25px white;
+}
+
+.ask_bot {
+    background-color: transparent;
+    align-self: center;
+    margin-left: 10%;
+    width: 100%;
+}
+
+.yes {
+     color: white;
+     background-color: #181818;
+     padding: 4%;
+     border-radius: 50%;
 
 }
-main {
-    padding: 5%;
-    height: auto;
+
+.no {
+    color: white;
+    background-color: #181818;
+    padding: 4%;
+    border-radius: 50%;
+}
+
+.content {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
-    justify-content: center;
+    font-size: medium;
+    font-size: clamp(1rem, 1vw, 2rem);
+
 }
 
-footer {
-    border-top: 8px double white;
-    padding: 3%;
-    height: auto;
-    text-align: center;
+/*
+.box {
+    border: 2px yellow solid;
+    width: 95%;
+    margin: auto;
+    height: 450px;
+    overflow: auto;
+    justify-content: center;
+    align-self: flex-end;
+    background-color: #181818;
 }
+*/
+.footer {
+    border-top: 8px white double;
+    padding: 2%;
+    flex-wrap: wrap;
+    text-align: center;
+    align-self: center;
+    font-size: clamp(1rem, 1vw, 3rem);
+}
+
 
 @keyframes icon-anim{
     from {opacity: 0;}
     to {opacity: 100;}
+}
+@keyframes blinking-shadow{
+    from {
+        box-shadow: 0px 0px 0px #181818;
+    }
+    to {
+        box-shadow: 4px 4px 15px white;
+    }
+}
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+@media screen and (min-device-width: 416px){
+    .main-layout {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+}
+    
+@media screen and (min-device-width: 1024px){
+    .main-layout {
+        grid-template-rows: 25% 10% 10% 50% 5%;
+        margin-left: 20%;
+        margin-right: 20%;
+        background-color: #181818;
+    }
+    
+    .avatar img {
+         width: 55%;
+         height: 55%;
+         
+     } 
+
+    .menu {
+        border-top: 15px white double;
+        border-bottom: 15px white double;
+      
+    }
+    
+    .menu img {
+        margin: 2%;
+        width: 5%;
+    }
+
+    .lets_connect {
+        border-radius: 50px;
+        margin-left: 32%;
+        margin-right: 32%;
+        padding: 3%;
+    
+    }
+    
+    
+    .social_icons img {
+        width: 7%;
+        margin: .5%;
+        display: inline-block;
+        border-radius: 30px;
+    }
+/*
+    .main {
+        grid-template-rows: 25% 75%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }*/
+    .current_page {
+        margin-top: 2%;
+        padding: 2%;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        align-self: flex-start;
+        font-size: clamp(1.5rem, 2vw, 3rem);
+        font-weight: bolder;
+        color: white;
+        color: #181818;
+        text-shadow: 0 0 10px white,
+                     0 0 20px white,             
+                     0 0 25px white;
+    
+    }
+    
+    .content {
+        font-size: medium;
+        font-size: clamp(1rem, 1vw, 2rem);
+        align-self: center;
+    }
+    
+
+    .footer{
+        border-top: 15px white double;
+        
+    }
+     
 }
