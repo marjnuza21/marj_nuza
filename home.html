@@ -1,60 +1,47 @@
 <!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="homestyle.css"/>
+<link rel="stylesheet" type="text/css" href="homestyle.css" />
+<script src="JS.js"></script>
 <head>
 <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
 <title>Marj Nuza</title>
 </head>
-<body>
-    <header class="container1">
-        <div class="mydp">
-            <a href="index.html"><img src="mpn_avatar.PNG"></a></div>
-        <div id="button_wrap" class="button_wrap">
-            <div onclick="hide()" id="letsconnect" class="text">Let's Connect</div>
-            <div id="socmed" class="socmed">
-                <a onclick="OpenGithub()"><img class="github" src="icon_git.png"></a>
-                <a href=""><img class="linkedin" src="icon_in.png"></a>
-                <a href=""><img class="ig" src="icon_ig.png"></a>
+<body class="main-layout">
+    <div class="header">
+        <div class="avatar">
+            <img onclick="OpenIndex()" src="C:\Users\mhajo\Downloads\MN 1.21.2023\marj_nuza-main\mpn_avatar.png"></div>
+        <div class="contacts">
+            <div onclick="hide()" id="lets_connect" class="lets_connect">Let's Connect &#128279</div>
+            <div id="social_icons" class="social_icons">
+                <a onclick="OpenGithub()"><img class="github" src="C:\Users\mhajo\Downloads\MN 1.21.2023\marj_nuza-main\Icons\icon_git.png"></a>
+                <a href=""><img class="linkedin" src="C:\Users\mhajo\Downloads\MN 1.21.2023\marj_nuza-main\Icons\icon_in.png"></a>
+                <a href=""><img class="ig" src="C:\Users\mhajo\Downloads\MN 1.21.2023\marj_nuza-main\Icons\icon_ig.png"></a> 
             </div>
-        <script type="text/javascript">
-           function hide() {
-            document.getElementById("letsconnect").style.display = "none"
-            document.getElementById("socmed").style.display ="block"
-           }
-           function OpenGithub() {
-            window.open("https://github.com/marjnuza21");
-           }
-        </script>
-    </header>
-    <header2>
-        <div class="container2">
-            <a href="home.html"> <img class="Home" src="icons8-home-100.png"></a>
-            <a href="milestone.html"><img class="milestone" src="icons8-milestone-100.png"></a>
-            <a href="#"><img class="projects" src="icons8-projects-100.png"></a>
-            <a href="#"><img class="blogs" src="icons8-blogs-100.png"></a>
-            <a href="#"><img class="travel" src="icons8-traveling-100.png"></a>
+        </div>
+    </div>
+    <div class="menu">
+             <img class="Home" src="C:\Users\mhajo\Downloads\MN 1.21.2023\marj_nuza-main\Icons\icons8-home-100.png">
+            <img class="milestone" src="C:\Users\mhajo\Downloads\MN 1.21.2023\marj_nuza-main\Icons\icons8-milestone-100.png">
+            <img class="projects" src="C:\Users\mhajo\Downloads\MN 1.21.2023\marj_nuza-main\Icons\icons8-projects-100.png">
+            <img class="blogs" src="C:\Users\mhajo\Downloads\MN 1.21.2023\marj_nuza-main\Icons\icons8-blogs-100.png">
+            <img class="travel" src="C:\Users\mhajo\Downloads\MN 1.21.2023\marj_nuza-main\Icons\icons8-traveling-100.png">
             <div class="cursor"></div>
-        </div>
-    </header2>
-
-    <main>
-        <div class="category">
-            <p>HOME</p>
-        </div>
-        <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
-
-    </main>
-
-    <footer>
-        <p><b>Crafted with &#9829 by Marj</b></p>
-    </footer>
+    </div>
+    <div  id="current_page" class="current_page">
+        HOME
+    </div>
+    <div id="ask_bot" class="ask_bot">
+        ARE YOU A ROBOT?
+        <button onclick="ItsABot()" id="yes" class="yes">YES</button>
+        <button onclick="NotABot()" id="no" class="no">N O</button>
+    </div>
+    <div class="content">
+         <p id="content"></p> 
+     
+    </div>
+    </div>
+    <div class="footer">
+        Crafted with &#9829 by Marj
+    </div4>
 </body>
 </html>
-
