@@ -123,8 +123,7 @@
 }
 
 .yes {
-     color: white;
-     background-color: #181818;
+     background-color: white;
      padding: 4%;
      border-radius: 50%;
      font-size: clamp(1rem, 1vw, 2rem);
@@ -132,8 +131,7 @@
 }
 
 .no {
-    color: white;
-    background-color: #181818;
+    background-color: white;
     padding: 4%;
     border-radius: 50%;
     font-size: clamp(1rem, 1vw, 2rem);
