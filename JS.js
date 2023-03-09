@@ -25,9 +25,8 @@ function OpenHome() {
 
 //This is for NotABot//
 var i = 0;
-var text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-;
-var yesBot = "Sorry Robot. Please try again!!!";
+var text = "Hey there! I hope you're doing alright.\n My name is Marj. \nWelcome to my site. \nLorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum, ex non interdum laoreet, tellus felis scelerisque ante, a eleifend ligula ante sit amet augue. Integer eleifend ipsum sed urna placerat, ut ultricies erat tempus. Duis lobortis eget ex volutpat dapibus. In hac habitasse platea dictumst. Vestibulum efficitur sollicitudin mattis. Etiam vitae odio ac ligula iaculis eleifend.";
+var yesBot = "Sorry Robot. Better luck next time!!!";
 var speed = 50;
 
 function NotABot() {
