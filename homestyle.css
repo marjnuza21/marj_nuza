@@ -117,7 +117,7 @@
 .ask_bot {
     background-color: transparent;
     align-self: center;
-    margin-left: 10%;
+    text-align: center;
     width: 100%;
      font-size: clamp(1rem, 1vw, 2rem);
 }
