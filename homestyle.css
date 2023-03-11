@@ -1,8 +1,6 @@
-
 * {
     margin: 0;
-    background-color: #181818;
-   
+    background-color: #181818;  
 }
    
 .main-layout {
@@ -12,8 +10,7 @@
     display: grid;
     color: white;
     grid-template-rows: 18% 11% 10% 6% 49% 6%;
-    font-family:'Raleway', sans-serif;
-    
+    font-family:'Raleway', sans-serif; 
 }
 
 .header {
@@ -29,13 +26,11 @@
 
 .avatar img {
     width: 75%;
-    height: 75%;
-       
+    height: 75%;    
 } 
 
 .contacts {
     text-align: center;
-    /*position: relative;*/
     align-self: center;
 }
 
@@ -88,16 +83,6 @@
     display: inline-block;
     border-radius: 3%;
 }
-/*
-.main {
-    background-color: #181818;
-    align-self: flex-start;
-    display: grid;
-    margin-top: 5%;
-    grid-template-rows: 15% 85%;
-    margin-left: 10%;
-    margin-right: 10%;
-}*/
 
 .current_page {
     margin-top: 5%;
@@ -110,8 +95,8 @@
     flex-direction: column;
     color: #181818;
     text-shadow: 0 0 10px white,
-    0 0 15px white,             
-    0 0 25px white;
+                 0 0 15px white,             
+                 0 0 25px white;
 }
 
 .ask_bot {
@@ -119,19 +104,20 @@
     align-self: center;
     text-align: center;
     width: 100%;
-     font-size: clamp(1rem, 1vw, 2rem);
+    font-size: clamp(1rem, 1vw, 2rem);
 }
 
 .yes {
-     background-color: white;
+     background-color: transparent;
+     border-color: white;
      padding: 4%;
      border-radius: 50%;
      font-size: clamp(1rem, 1vw, 2rem);
-
 }
 
 .no {
-    background-color: white;
+    background-color: transparent;
+    border-color: white;
     padding: 4%;
     border-radius: 50%;
     font-size: clamp(1rem, 1vw, 2rem);
@@ -142,23 +128,10 @@
     margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
-    font-size: medium;
     font-size: clamp(1rem, 1vw, 2rem);
 
 }
 
-/*
-.box {
-    border: 2px yellow solid;
-    width: 95%;
-    margin: auto;
-    height: 450px;
-    overflow: auto;
-    justify-content: center;
-    align-self: flex-end;
-    background-color: #181818;
-}
-*/
 .footer {
     border-top: 8px white double;
     padding: 2%;
@@ -192,30 +165,27 @@
 
 @media screen and (min-device-width: 416px){
     .main-layout {
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
-
 }
     
-@media screen and (min-device-width: 1024px){
+@media screen and (min-device-width: 1024px) and (max-device-height: 1500px){
+
     .main-layout {
-        grid-template-rows: 25% 10% 10% 50% 5%;
+        grid-template-rows: 25% 10% 10% 10% 40% 5%;
         margin-left: 20%;
         margin-right: 20%;
-        background-color: #181818;
     }
-    
+
     .avatar img {
          width: 55%;
-         height: 55%;
-         
+         height: 55%;   
      } 
 
     .menu {
         border-top: 15px white double;
         border-bottom: 15px white double;
-      
     }
     
     .menu img {
@@ -228,9 +198,7 @@
         margin-left: 32%;
         margin-right: 32%;
         padding: 3%;
-    
-    }
-    
+    } 
     
     .social_icons img {
         width: 7%;
@@ -238,38 +206,42 @@
         display: inline-block;
         border-radius: 30px;
     }
-/*
-    .main {
-        grid-template-rows: 25% 75%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }*/
+
     .current_page {
         margin-top: 2%;
         padding: 2%;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
-        align-self: flex-start;
-        font-size: clamp(1.5rem, 2vw, 3rem);
         font-weight: bolder;
-        color: white;
-        color: #181818;
         text-shadow: 0 0 10px white,
                      0 0 20px white,             
-                     0 0 25px white;
-    
+                     0 0 30px white;
     }
     
+    .ask_bot {
+        background-color: transparent;
+        align-self: flex-start;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        font-size: clamp(1rem, 1vw, 1.5rem);
+    }
+
+    .yes {
+        padding: 2%;
+
+    }
+
+    .no {
+        padding: 2%;
+    }
+
     .content {
         font-size: medium;
         font-size: clamp(1rem, 1vw, 2rem);
-        align-self: center;
+        align-self: flex-start;
     }
     
-
     .footer{
         border-top: 15px white double;
-        
     }
      
 }
