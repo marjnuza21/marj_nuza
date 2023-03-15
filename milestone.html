@@ -1,37 +1,51 @@
 <!DOCTYPE html>
-
-
+<link rel="stylesheet" type="text/css" href="milestonestyles.css" />
+<script src="JS.js"></script>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
 <title>Marj Nuza</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="milestonestyles.css"/>
+</head>
+<body class="main-layout">
+    <div class="menu">
+            <img onclick="OpenHome()" class="Home" src="C:\Users\mhajo\Downloads\MN 1.21.2023\marj_nuza-main\Icons\icons8-home-100.png">
+            <img onclick="OpenMilestone()" class="milestone" src="C:\Users\mhajo\Downloads\MN 1.21.2023\marj_nuza-main\Icons\icons8-milestone-100.png">
+            <img class="projects" src="C:\Users\mhajo\Downloads\MN 1.21.2023\marj_nuza-main\Icons\icons8-projects-100.png">
+            <img class="blogs" src="C:\Users\mhajo\Downloads\MN 1.21.2023\marj_nuza-main\Icons\icons8-blogs-100.png">
+            <img class="travel" src="C:\Users\mhajo\Downloads\MN 1.21.2023\marj_nuza-main\Icons\icons8-traveling-100.png">
+            <div class="cursor"></div>
+    </div>
+    <div  id="current_page" class="current_page">
+        MILESTONE
+    </div>
+    <div class="content">
+         <p id="content">
 
-<body bgcolor=#181818 >
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="milestone.html">Milestone</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contacts</a></li>
-        <div class="cursor"></div>
-    </ul>
-    
-    <div id="EDU"><b>EDUCATION</b></div>
-    <div id="Career"><b>CAREER</b></div>
-    <div id="Present"><b><u>April 2019 to Present:</u></b><br>IT Applications Engineer</div>
-    <div id="N2018"><b><u>November 2018:</u></b><br>Completed MS Cybersecurity</div>
-    <div id="N2017"><b><u>November 2017:</u></b><br>Business & Data Migration Analyst</a></li></div>
-    <div id="A2017"><b><u>August 2017:</u></b><br>Started Masteral Program</a></li></div>
-    <div id="J2015"><b><u>January 2015:</u></b><br>Human Resources Officer</a></li></div>
-    <div id="A2012"><b><u>April 2012:</u></b><br>Completed BS Business Administration</a></li></div>   
-
-    <div class="cursor"></div>   
-    
-    <script>
-        const cursor = document.querySelector('.cursor');
-        document.addEventListener('mousemove', (e) =>{
-            cursor.style.left = e.pageX + 'px';
-            cursor.style.top = e.pageY + 'px';
-        })
-    </script>
-
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, arcu a congue mollis, nisl felis ullamcorper massa, at pretium augue turpis ut tortor. Nullam et orci scelerisque, vehicula ipsum a, blandit nisl. Nam pellentesque nunc dignissim libero auctor convallis. Phasellus aliquam magna leo, nec feugiat leo ultricies sit amet. Mauris non turpis nulla. Aliquam erat volutpat. Sed ut dictum est, eget venenatis ipsum. Proin ultricies eleifend lobortis. Vivamus eu bibendum elit. Phasellus sed sollicitudin velit.
+            <br>
+            <br>
+            Aenean venenatis massa ut sem mollis tempor. Nam rutrum tortor ut ligula imperdiet ultrices. Donec bibendum quam eu convallis congue. Praesent in mi malesuada, porttitor massa ac, bibendum purus. Sed dictum velit sit amet tincidunt sagittis. Nullam in pharetra massa. Donec leo lorem, blandit vitae efficitur nec, rhoncus a nibh. Aenean ullamcorper pharetra tortor euismod viverra. Morbi luctus turpis at mauris cursus commodo.
+            <br>
+            <br>
+            Phasellus pulvinar nibh vitae pharetra suscipit. Nam scelerisque ex ac venenatis ultricies. Curabitur eu faucibus sapien. In quis auctor augue. Proin vehicula lectus sem, sed faucibus arcu tempus id. In placerat mauris quis ligula scelerisque, in rutrum lacus placerat. Quisque consequat eros mauris, nec interdum nisi porta et. Nunc sed viverra est. Duis eleifend volutpat elit sit amet tempus. Quisque pharetra ullamcorper fringilla. Cras quam nibh, consectetur sed turpis quis, hendrerit ultrices libero. Curabitur vel sem id ligula sodales rhoncus. Maecenas tempus ex sapien, sit amet finibus augue lacinia eget. Etiam urna elit, scelerisque hendrerit cursus sit amet, rutrum vitae tellus.
+            <br>
+            <br>
+            Aenean venenatis massa ut sem mollis tempor. Nam rutrum tortor ut ligula imperdiet ultrices. Donec bibendum quam eu convallis congue. Praesent in mi malesuada, porttitor massa ac, bibendum purus. Sed dictum velit sit amet tincidunt sagittis. Nullam in pharetra massa. Donec leo lorem, blandit vitae efficitur nec, rhoncus a nibh. Aenean ullamcorper pharetra tortor euismod viverra. Morbi luctus turpis at mauris cursus commodo.
+            <br>
+            <br>
+            Phasellus pulvinar nibh vitae pharetra suscipit. Nam scelerisque ex ac venenatis ultricies. Curabitur eu faucibus sapien. In quis auctor augue. Proin vehicula lectus sem, sed faucibus arcu tempus id. In placerat mauris quis ligula scelerisque, in rutrum lacus placerat. Quisque consequat eros mauris, nec interdum nisi porta et. Nunc sed viverra est. Duis eleifend volutpat elit sit amet tempus. Quisque pharetra ullamcorper fringilla. Cras quam nibh, consectetur sed turpis quis, hendrerit ultrices libero. Curabitur vel sem id ligula sodales rhoncus. Maecenas tempus ex sapien, sit amet finibus augue lacinia eget. Etiam urna elit, scelerisque hendrerit cursus sit amet, rutrum vitae tellus.
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+         </p> 
+     
+    </div>
+    </div>
+    <div class="footer">
+        Crafted with &#9829 by Marj
+    </div4>
 </body>
 </html>
+
