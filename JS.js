@@ -15,6 +15,10 @@ function OpenHome() {
  function OpenMilestone() {
   location.href = "milestone.html"
  }
+
+ function OpenFFT() {
+  location.href = "home_onepage.html"
+ }
  
  function hide() {
   document.getElementById("lets_connect").style.display ="none"
