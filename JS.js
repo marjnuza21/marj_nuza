@@ -33,7 +33,7 @@ function OpenHome() {
 
 //This is for NotABot//
 var i = 0;
-var text = "I am Marj, a software engineer with a background in business and cybersecurity.\n\nI'm highly involved in back-end engineering in my day job but I've always been passionate and interested in developing my front-end engineering skills. This is why I've decided to build my professional portfolio website from scratch.\n\nI aspire to become an instrument to inspire other people with my work and provide value to other people's lives even in the simpliest way possible.\n\nThank you for visiting my site. :) Feel free to explore my page :)"
+var text = "Hey there. Hope you are doing alright.\n\nI am Marj, a software engineer with a background in business and cybersecurity.\n\nI'm highly involved in back-end engineering in my day job but I've always been passionate and interested in developing my front-end engineering skills. This is why I've decided to build my professional portfolio website from scratch.\n\nI aspire to become an instrument to inspire other people with my work and provide value to other people's lives even in the simpliest way possible.\n\nThank you for visiting my site. :) Feel free to explore my page :)"
 ;
 var yesBot = "Sorry Robot. Better luck next time!!!";
 var visitor = "Please confirm that you're not a bot."
