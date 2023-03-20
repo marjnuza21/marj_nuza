@@ -129,6 +129,7 @@
     margin-left: 10%;
     margin-right: 10%;
     font-size: clamp(1rem, 1vw, 2rem);
+    white-space: pre-wrap;
 
 }
 
