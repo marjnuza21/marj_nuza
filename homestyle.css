@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     background-color: #181818;  
@@ -9,7 +10,9 @@
     min-height: 100dvh;
     display: grid;
     color: white;
-    grid-template-rows: 18% 11% 10% 6% 49% 6%;
+    /*grid-template-rows: 18% 11% 10% 6% 49% 6%;*/
+    grid-template-rows: 18% 11% 65% 6%;
+    grid-template-areas: "header" "menu" "content_container" "footer";
     font-family:'Raleway', sans-serif; 
 }
 
@@ -84,6 +87,7 @@
     border-radius: 3%;
 }
 
+/*
 .current_page {
     margin-top: 5%;
     font-family: Arial, Helvetica, sans-serif;
@@ -98,40 +102,143 @@
                  0 0 15px white,             
                  0 0 25px white;
 }
+*/
 
-.ask_bot {
+
+.content_container {
+    text-align: center;
+    align-items: center;
+}
+.proof {
     background-color: transparent;
+    margin-top: 10%;
     align-self: center;
     text-align: center;
     width: 100%;
     font-size: clamp(1rem, 1vw, 2rem);
 }
 
-.yes {
-     background-color: transparent;
-     border-color: white;
-     padding: 4%;
-     border-radius: 50%;
-     font-size: clamp(1rem, 1vw, 2rem);
-}
-
-.no {
+.human {
     background-color: transparent;
     border-color: white;
+    align-self: center;
     padding: 4%;
     border-radius: 50%;
     font-size: clamp(1rem, 1vw, 2rem);
+    animation: icon-anim 4s;
+    animation-delay: 5s;
+}
+.robot {
+     background-color: transparent;
+     border-color: white;
+     padding: 4%;
+     align-self: center;
+     border-radius: 50%;
+     font-size: clamp(1rem, 1vw, 2rem);
+     animation: robot-options 4s;
+     animation-delay: 2s;
+}
+
+.ghost {
+    background-color: transparent;
+    border-color: white;
+    padding: 4%;
+    align-self: center;
+    border-radius: 50%;
+    font-size: clamp(1rem, 1vw, 2rem);
+    animation: robot-options 4s;
+    animation-delay: 2s;
+}
+
+.square {
+    background-color: transparent;
+    border-color: white;
+    padding: 4%;
+    align-self: center;
+    border-radius: 50%;
+    font-size: clamp(1rem, 1vw, 2rem);
+    animation: robot-options 4s;
+    animation-delay: 2s;
+}
+
+.redflag {
+    background-color: transparent;
+    border-color: white;
+    padding: 4%;
+    align-self: center;
+    border-radius: 50%;
+    font-size: clamp(1rem, 1vw, 2rem);
+    animation: robot-options 4s;
+    animation-delay: 2s;
+}
+
+.puppy {
+    background-color: transparent;
+    border-color: white;
+    padding: 4%;
+    align-self: center;
+    border-radius: 50%;
+    font-size: clamp(1rem, 1vw, 2rem);
+    animation: robot-options 4s;
+    animation-delay: 2s;
+}
+
+.zombie {
+    background-color: transparent;
+    border-color: white;
+    padding: 4%;
+    align-self: center;
+    border-radius: 50%;
+    font-size: clamp(1rem, 1vw, 2rem);
+    animation: robot-options 4s;
+    animation-delay: 2s;
+}
+
+.clown {
+    background-color: transparent;
+    border-color: white;
+    padding: 4%;
+    align-self: center;
+    border-radius: 50%;
+    font-size: clamp(1rem, 1vw, 2rem);
+    animation: robot-options 4s;
+    animation-delay: 2s;
+}
+
+
+.cake {
+    background-color: transparent;
+    border-color: white;
+    padding: 4%;
+    align-self: center;
+    border-radius: 50%;
+    font-size: clamp(1rem, 1vw, 2rem);
+    animation: robot-options 4s;
+    animation-delay: 2s;
 }
 
 .content {
     font-family: 'Raleway', sans-serif;
-    margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
-    font-size: clamp(.85rem, 1vw, 2rem);
+    font-size: clamp(1rem, 1vw, 2rem);
     white-space: pre-wrap;
+    align-self: center;
 
 }
+
+.tryagain {
+    /*font-family: 'Courier New', Courier, monospace;*/
+    font-family: 'Raleway', sans-serif;
+    font-size: clamp(1rem, 3vw, 3rem);
+    color: white;
+    text-decoration: solid;
+    align-self: center;
+    text-shadow: 5px 5px 10px white;
+    animation: changecolor 5s;
+    display: none;
+}
+
 
 .footer {
     border-top: 8px white double;
@@ -142,7 +249,15 @@
     font-size: clamp(1rem, 1vw, 3rem);
 }
 
+@keyframes changecolor {
+    from {color: #181818;}
+    to {color: white;}
+    }
 
+@keyframes robot-options{
+    from {display:none}
+    to {display:block}
+}
 @keyframes icon-anim{
     from {opacity: 0;}
     to {opacity: 100;}
@@ -246,3 +361,5 @@
     }
      
 }
+
+
