@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    background-color: #181818;
+}
+
+.main-layout {
+    grid-template-rows: 25% 10% 10% 10% 40% 5%;
+    min-height: 100vh;
+    min-height: 100dvh;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.menu {
+    border-top: 8px white double;
+    border-bottom: 8px white double;
+    background-color: #181818;
+    text-align: center;
+    position: sticky;
+    top: 0%;
+}
+
+.menu img {
+    margin: 2%;
+    width: 11%;
+    align-self: center;
+    display: inline-block;
+    border-radius: 3%;
+}
+
+.current_page {
+    margin-top: 2%;
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-self: flex-start;
+    color: #181818;
+    font-size: clamp(1.5rem, 2vw, 3rem);
+    font-weight: bolder;
+    text-shadow: 0 0 10px white,
+                 0 0 20px white,             
+                 0 0 30px white;
+}
+
+
+.content {
+    font-size: clamp(1rem, 1vw, 2rem);
+    align-self: flex-start;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content img {
+    justify-content: center;
+    width: 70%;
+    height: 70%;
+}
+
+.footer{
+    border-top: 8px white double;
+    padding: 2%;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: clamp(1rem, 1vw, 3rem);
+}
+ 
+@media screen and (min-device-width: 416px){
+    .main-layout {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .menu {
+        border-top: 12px white double;
+        border-bottom: 12px white double;
+    }
+
+    .menu img {
+        width: 8%;
+    }
+    
+    .current_page {
+        font-size: clamp(2rem, 3vw, 4rem);
+    }
+        
+    .content {
+        font-size: clamp(1.5rem, 1vw, 2rem);
+    }
+
+    .footer{
+        border-top: 12px white double;
+        font-size: clamp(1.5rem, 1vw, 3rem);
+    }
+    
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-height: 1500px){
+    * {
+        background-color: #181818;
+    }
+
+    .main-layout {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    
+    .menu {
+        border-top: 15px white double;
+        border-bottom: 15px white double;
+    }
+
+    .menu img {
+        margin: 1%;
+        width: 5%;
+    }
+
+    .current_page {
+        padding: 2%;
+        font-size: clamp(1.5rem, 2vw, 3rem);
+    }
+    
+    .content {
+        font-size: clamp(1rem, 1vw, 2rem);
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    
+    .footer{
+        border-top: 15px white double;
+    }
+     
+}
+
+
