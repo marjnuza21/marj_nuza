@@ -25,6 +25,10 @@ function OpenHome() {
   window.open("https://github.com/marjnuza21");
  }
 
+ function OpenBlog1() {
+  location.href = "blog1.html"
+ }
+
 
 
 //This is for NotABot//
