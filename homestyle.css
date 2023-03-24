@@ -228,7 +228,6 @@
 }
 
 .tryagain {
-    /*font-family: 'Courier New', Courier, monospace;*/
     font-family: 'Raleway', sans-serif;
     font-size: clamp(1rem, 3vw, 3rem);
     color: white;
@@ -289,9 +288,9 @@
 @media screen and (min-device-width: 1024px) and (max-device-height: 1500px){
 
     .main-layout {
-        grid-template-rows: 25% 10% 10% 10% 40% 5%;
-        margin-left: 20%;
-        margin-right: 20%;
+        grid-template-rows: 23% 11% 60% 6%;
+        margin-left: 25%;
+        margin-right: 25%;
     }
 
     .avatar img {
@@ -305,7 +304,9 @@
     }
     
     .menu img {
-        margin: 2%;
+        margin: 1%;
+        margin-left: 2%;
+        margin-right: 2%;
         width: 5%;
     }
 
@@ -332,28 +333,63 @@
                      0 0 30px white;
     }
     
-    .ask_bot {
-        background-color: transparent;
-        align-self: flex-start;
-        text-align: center;
-        width: 100%;
-        height: auto;
-        font-size: clamp(1rem, 1vw, 1.5rem);
+    .proof {
+        margin-top: 4%;
     }
 
-    .yes {
+    .robot {
         padding: 2%;
 
     }
 
-    .no {
+    .ghost {
+        padding: 2%;
+    }
+
+    .square {
+        padding: 2%;
+    }
+
+    .redflag {
+        padding: 2%;
+    }
+
+    .human {
+        padding: 2%;
+    }
+
+    .puppy {
+        padding: 2%;
+    }
+
+    .zombie {
+        padding: 2%;
+    }
+
+    .clown {
+        padding: 2%;
+    }
+
+    .cake {
         padding: 2%;
     }
 
     .content {
         font-size: medium;
-        font-size: clamp(1rem, 1vw, 2rem);
+        font-size: clamp(1.5rem, 1vw, 2rem);
         align-self: flex-start;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .tryagain {
+        font-family: 'Raleway', sans-serif;
+        font-size: clamp(1.5rem, 1vw, 2rem);
+        color: white;
+        text-decoration: solid;
+        align-self: center;
+        text-shadow: 5px 5px 10px white;
+        animation: changecolor 5s;
+        display: none;
     }
     
     .footer{
