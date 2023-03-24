@@ -5,11 +5,11 @@ for(let i = 0; i<nuza.length; i++){
 }
 
 function OpenIndex() {
-  location.href = "index.html"
+  location.href = "\marj_nuza\index.html"
  }
 
 function OpenHome() {
-  location.href = "home.html"
+  location.href = "\marj_nuza\home.html"
  }
 
  function OpenMilestone() {
