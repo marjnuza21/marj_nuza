@@ -9,11 +9,11 @@ function OpenIndex() {
  }
 
 function OpenHome() {
-  location.href = "./marj_nuza/home.html"
+  location.href = "home.html"
  }
 
  function OpenMilestone() {
-  location.href = "/main/milestone.html"
+  location.href = "/marj_nuza/milestone.html"
  }
  
  function hide() {
