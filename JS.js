@@ -9,11 +9,11 @@ function OpenIndex() {
  }
 
 function OpenHome() {
-  location.href = "home.html"
+  location.href = "https://github.com/marjnuza21/marj_nuza/blob/main/home.html"
  }
 
  function OpenMilestone() {
-  location.href = "milestone.html"
+  location.href = "/main/milestone.html"
  }
  
  function hide() {
