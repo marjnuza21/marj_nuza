@@ -15,6 +15,12 @@ function OpenHome() {
  function OpenMilestone() {
   location.href = "/marj_nuza/milestone.html"
  }
+
+ function OpenBlog1() {
+  location.href = "/blogs/blog1.html"
+ }
+
+
  
  function hide() {
   document.getElementById("lets_connect").style.display ="none"
@@ -25,9 +31,6 @@ function OpenHome() {
   window.open("https://github.com/marjnuza21");
  }
 
- function OpenBlog1() {
-  location.href = "/blog1.html"
- }
 
 
 
