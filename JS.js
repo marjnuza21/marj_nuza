@@ -9,7 +9,7 @@ function OpenIndex() {
  }
 
 function OpenHome() {
-  location.href = "/marj_nuza/blob/main/home.html"
+  location.href = "./marj_nuza/home.html"
  }
 
  function OpenMilestone() {
