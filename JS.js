@@ -26,7 +26,7 @@ function OpenHome() {
  }
 
  function OpenBlog1() {
-  location.href = "/blogs/blog1.html"
+  location.href = "/blogs/blog1.html";
  }
 
 
