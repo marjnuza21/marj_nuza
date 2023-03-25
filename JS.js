@@ -17,7 +17,7 @@ function OpenHome() {
  }
 
  function OpenBlog1() {
-  location.href = "/blogs/blog1.html"
+  location.href = "/marj_nuza/blogs/blog1.html"
  }
 
 
