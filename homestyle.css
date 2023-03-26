@@ -284,7 +284,14 @@
         margin-right: 5%;
     }
 }
-    
+ 
+@media screen and (min-device-width: 1024px) and (min-device-height: 1000px){
+      .main-layout {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+}
 @media screen and (min-device-width: 1024px) and (min-device-height: 400px){
 
     .main-layout {
