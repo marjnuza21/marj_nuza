@@ -378,8 +378,8 @@
         font-size: medium;
         font-size: clamp(1.2rem, 1vw, 2rem);
         align-self: flex-start;
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 15%;
+        margin-right: 15%;
     }
     .tryagain {
         font-family: 'Raleway', sans-serif;
