@@ -84,7 +84,12 @@
     to {color: white;}
     }
 
-@media screen and (min-device-width: 1024px){
+@media screen and (min-device-width: 1024px) and (min-device-height: 400px){
+    .marj {
+   
+        font-size: clamp(.5rem, 16vw, 18rem);
+
+    }
     .nuza {
         width: 50%;
         height: 70%;
