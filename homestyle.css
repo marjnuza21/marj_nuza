@@ -285,7 +285,7 @@
     }
 }
     
-@media screen and (min-device-width: 1024px) and (max-device-height: 1500px){
+@media screen and (min-device-width: 1024px) and (min-device-height: 400px){
 
     .main-layout {
         grid-template-rows: 23% 11% 60% 6%;
