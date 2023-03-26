@@ -36,7 +36,7 @@ function OpenHome() {
 
 //This is for NotABot//
 var i = 0;
-var human = "Hey there. Hope you are doing alright.\n\nI am Marj, a back-end software engineer and a cybersecurity enthusiast.\n\nMy passion for front-end engineering has driven me to develop this personal website of mine.\n\nI aspire to become an instrument to inspire other people with my work and provide value to other people's lives even in the simpliest way possible.\n\nThank you for visiting my site. :) Feel free to explore my page :)"
+var human = "Hey there. Hope you are doing alright.\n\nI am Marj, a back-end software engineer and a cybersecurity enthusiast.\n\nMy passion for front-end engineering has driven me to develop this personal website of mine.\n\nI hope to inspire other people with my work and provide value to their lives even in the simpliest way possible.\n\nThank you for visiting and feel free to explore my page :)"
 ;
 var robot = "\n\nSorry Robot.\n\nBetter luck next time!!!";
 var ghost = "\n\nYou're a ghost.\n\nGo away!!!";
