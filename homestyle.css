@@ -289,8 +289,8 @@
 
     .main-layout {
         grid-template-rows: 23% 11% 60% 6%;
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
 
     .avatar img {
@@ -376,10 +376,10 @@
 
     .content {
         font-size: medium;
-        font-size: clamp(1.5rem, 1vw, 2rem);
+        font-size: clamp(1.2rem, 1vw, 2rem);
         align-self: flex-start;
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
     .tryagain {
         font-family: 'Raleway', sans-serif;
