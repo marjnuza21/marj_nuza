@@ -285,11 +285,7 @@
     }
 }
  
-@media screen and (min-device-width: 1024px) and (min-device-height: 800px){
-      .main-layout {
-        margin-left: 10%;
-        margin-right: 10%;
-    }
+
 
 }
 @media screen and (min-device-width: 1024px) and (min-device-height: 400px){
@@ -410,4 +406,9 @@
      
 }
 
+@media screen and (min-device-width: 1024px) and (min-device-height: 1440px){
+      .main-layout {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 
