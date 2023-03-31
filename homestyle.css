@@ -82,9 +82,14 @@
 
 .menu img {
     margin: 2%;
+    margin-left: .5%;
     width: 11%;
     display: inline-block;
     border-radius: 3%;
+}
+
+.home {
+    box-shadow: 0px 5px 0px white;
 }
 
 /*
