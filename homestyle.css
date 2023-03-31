@@ -292,7 +292,7 @@
  
 }
 
-@media screen and (min-device-width: 1024px) and (min-device-height: 1440px){
+@media screen and (max-device-width: 900px) and (max-height : 1440px){
       .main-layout {
         margin-left: 10%;
         margin-right: 10%;
@@ -300,7 +300,7 @@
 
 
 }
-@media screen and (min-device-width: 1024px) and (max-device-height: 1439px){
+@media screen and (min-device-width: 1024px) and (min-device-height: 400px){
 
     .main-layout {
         grid-template-rows: 23% 11% 60% 6%;
