@@ -12,6 +12,10 @@ function OpenHome() {
   location.href = "/marj_nuza/home.html"
  }
 
+function OpenTech() {
+  location.href = "/marj_nuza/tech.html"
+ }
+
  function OpenMilestone() {
   location.href = "/marj_nuza/milestone.html"
  }
