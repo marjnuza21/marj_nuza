@@ -93,11 +93,9 @@
 .footer{
     border-top: 8px white double;
     padding: 2%;
-    flex-wrap: wrap;
     text-align: center;
     align-self: center;
     font-size: clamp(1rem, 1vw, 3rem);
-    margin-top: 0%;
 }
 
 @media screen and (min-device-width: 416px){
