@@ -20,6 +20,10 @@ function OpenTechBlogs() {
   location.href = "/marj_nuza/tech_world/tech_blog.html"
  }
 
+function OpenTechTutorials() {
+  location.href = "/marj_nuza/tech_world/tech_tutorial.html"
+ }
+
  function OpenMilestone() {
   location.href = "/marj_nuza/milestone.html"
  }
