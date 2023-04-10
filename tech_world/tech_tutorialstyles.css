@@ -47,8 +47,8 @@
     display: grid;
     margin: auto;
     box-shadow: 1px 1px 3px 3px white;
-    width: 75%;
-    height: 300px;
+    width: 80%;
+    height: 310px;
     padding: 3%;
     border-radius: 15px;
     margin-top: 3%;
@@ -59,11 +59,10 @@
     padding: 2%;
     background-color: white;
     color: #181818;
-    width: 70%;
-    height: 140px;
-    justify-self: right;
+    width: 85%;
+    height: 120px;
+    justify-self: center;
     align-self: flex-start;
-    box-shadow: 0px 17px 0px white;
 }
 
 .tutorial_date {
@@ -103,12 +102,12 @@
 }
 
 .right_box {
-    width: 70%;
-    height: 135px;
-    justify-self: left;
-    align-self: flex-end;
-    box-shadow: 12px -12px 0px white;
-    
+    width: 85%;
+    height: 160px;
+    justify-self: center;
+    align-self: center;
+    box-shadow: -5px 5px white,
+                5px -5px white;
 }
 
 .footer{
@@ -139,40 +138,38 @@
     }
     
     
-    .blog_card {
+    .tutorial_card {
         width: 70%;
-        height: 450px;
+        height: 440px;
     }
     
     .left_box {
         padding: 3%;
-        width: 60%;
-        height: 180px;    
+        width: 77%;
+        height: 120px;    
     }
     
-    .blog_date {
+    .tutorial_date {
         font-size: 1rem;
     }
-    .blog_title {
+    .tutorial_title {
         font-size: 1.1rem;
     }
     
-    .blog_desc {
+    .tutorial_desc {
         font-size: .78rem;
     }
     
-    .read_more {
+    .watch_more {
         font-size: .75rem;
         padding: 3%;
     }
     
     .right_box {
-        background-color: pink;
-        width: 70%;
-        height: 230px;
-        justify-self: left;
-        align-self: flex-end;
-        box-shadow: 25px -25px 0px white;
+        width: 78%;
+        height: 260px;
+        box-shadow: -10px 10px white,
+                    10px -10px white;
         
     }
     
@@ -204,42 +201,41 @@
     }
     
     
-    .blog_card {
+    .tutorial_card {
         margin-top: 1%;
         width: 50%;
-        height: 500px;
-        box-shadow: 2px 2px 4px 4px white;
+        height: 550px;
+        /*box-shadow: 2px 2px 4px 4px white;*/
+        padding: 2%;
     }
     
     .left_box {
         padding: 3%;
-        width: 45%;
-        height: 200px;    
+        width: 68%;
+        height: 150px;    
     }
     
-    .blog_date {
+    .tutorial_date {
         font-size: 1.1rem;
     }
-    .blog_title {
+    .tutorial_title {
         font-size: 1.3rem;
     }
     
-    .blog_desc {
+    .tutorial_desc {
         font-size: .85rem;
     }
     
-    .read_more {
+    .watch_more {
         font-size: .80rem;
         padding: 2%;
     }
     
     .right_box {
-        background-color: pink;
-        width: 50%;
-        height: 250px;
-        justify-self: left;
-        align-self: flex-end;
-        box-shadow: 35px -35px 0px white;
+        width: 70%;
+        height: 320px;
+        box-shadow: -12px 12px white,
+                    12px -12px white;
         
     }
     
@@ -249,252 +245,4 @@
     }
     
 }
-
-
-
-/*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.tech {
-    box-shadow: 0px 5px 0px white;
-}
-
-.tech_blog_preview {
-    background-color: transparent;
-    color: white;
-    border-radius: 30px;
-    box-shadow: 3px 3px 4px 4px white;
-    margin-left: 5%;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: .9rem;
-
-}
-
-.tblog_title {
-    display: none;
-    text-decoration: underline;
-    font-weight: bolder;
-    font-size: 1rem;
-    background-color: transparent;
-}
-
-.tblog_sdesc_date {
-    display: none;
-    background-color: transparent;
-    text-align: left;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.tblog_img{
-    display: none;
-    justify-self: center;
-    margin-left: 5%;
-}
-
-.tblog_sometext {
-    display: none;
-    background-color: transparent;
-    text-align: left;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.arrow_next {
-    display: none;
-    font-size: 2rem;
-    font-weight: bolder;
-}
-
-
-.options {
-    background: transparent;
-    align-items: center;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    font-size: clamp(1rem, 3vw, 3rem);
-}
-
-.tech_blog {
-    font-weight: bolder;
-    text-align: center;
-    border-radius: 30px;
-    margin-left: 17%;
-    margin-right: 17%;
-    padding: 5%;
-    background-color: white;
-    color: #181818;
-}
-
-.tblog_title {
-    position: absolute;
-    animation: slide-right 5s;
-    animation-iteration-count: 1;
-    display: none;
-}
-
-
-.tech_tutorial {
-    font-weight: bolder;
-    text-align: center;
-    border-radius: 30px;
-    margin-left: 17%;
-    margin-right: 17%;
-    padding: 5%;
-    background-color: white;
-    color: #181818;
-}
-
-.tech_content {
-    font-size: clamp(1rem, 3vw, 6rem);
-    align-self: flex-start;
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: center;
-}
-
-.tech_content img {
-    width: 50%;
-    height: 50%;
-    
-}
-
-.tech_blog_preview {
-    display: none;
-   
-
-}
-
-.tech_blog_preview img{
-    text-align: center;
-   
-    
-}
-
-.tech_tutorial_preview {
-    display: none;
-}
-
-
-@keyframes slide-right {
-     0% {
-        animation-timing-function: ease-out;
-        opacity: 1;
-      }
-      
-      100% {
-       transform: translateX(-100vw);
-       opacity: 0;
-       display: none;
-    }
-     
-}
-
-@media screen and (min-device-width: 416px){
-    .main-layout {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-    .menu {
-        border-top: 12px white double;
-        border-bottom: 12px white double;
-    }
-
-    .menu img {
-        width: 8%;
-    }
-    
-    .current_page {
-        font-size: clamp(2rem, 4vw, 6rem);
-    }  
-    
-}
-
-@media screen and (min-device-width: 1024px) and (min-device-height: 400px){
-    .main-layout {
-        overflow: hidden;
-        display: grid;
-        grid-template-rows: 12% 8% 8% 66% 6%;
-        margin-left: 20%;
-        margin-right: 20%;
-    }
-    
-    .menu {
-        border-top: 15px white double;
-        border-bottom: 15px white double;
-    }
-
-    .menu img {
-        margin: 1%;
-        margin-left: 2%;
-        margin-right: 2%;
-        width: 5%;
-    }
-
-    .tech {
-        box-shadow: 0px 8px 0px white;
-    }
-
-    .current_page {
-        margin-top: 0%;
-        padding: 2%;
-        font-size: 3rem;
-        text-shadow: 0 0 10px white,
-                     0 0 30px white,             
-                     0 0 50px white;
-    }
-    
-    .options {
-        font-size: 1.5rem;
-        margin-left: 20%;
-        margin-right: 20%;
-    }
-
-    .tech_blog {
-        border-radius: 40px;
-    }
-
-    .tech_tutorial {
-        border-radius: 40px;
-    }
-    
-    .tech_content {
-        font-size: 1.5rem;
-        margin-left: 15%;
-        margin-right: 15%;
-        align-items: center;
-
-    }
-
-    .tech_content img {
-        width: 40%;
-        height: 40%;
-    }
-
-    .footer{
-        border-top: 15px white double;
-    }
-     
-}
-
 
