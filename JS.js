@@ -23,6 +23,10 @@ function OpenTechBlogs() {
 function OpenTechTutorials() {
   location.href = "/marj_nuza/tech_world/tech_tutorial.html"
  }
+ 
+  function OpenTravel() {
+  location.href = "travel.html"
+ }
 
  function OpenMilestone() {
   location.href = "/marj_nuza/milestone.html"
