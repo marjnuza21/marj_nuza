@@ -110,6 +110,12 @@
                 5px -5px white;
 }
 
+.ig_post {
+    padding: 2%;
+    background-color: #181818;
+    text-align: center;
+}
+
 .footer{
     border-top: 8px white double;
     padding: 2%;
