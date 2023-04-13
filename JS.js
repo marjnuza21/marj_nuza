@@ -25,7 +25,7 @@ function OpenTechTutorials() {
  }
  
   function OpenTravel() {
-  location.href = "travel.html"
+  location.href = "/marj_nuza/travel.html"
  }
 
  function OpenMilestone() {
