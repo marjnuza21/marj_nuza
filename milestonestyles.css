@@ -4,10 +4,10 @@
 }
 
 .main-layout {
-    overflow: hidden;
+    /*overflow: hidden;
     display: grid;
     grid-template-rows: 12% 10% 6% 66% 6%;
-    grid-template-areas: "menu" "current_page" "options" "tech_content" "footer";
+    grid-template-areas: "menu" "current_page" "options" "tech_content" "footer";*/
     min-height: 100vh;
     min-height: 100dvh;
     color: white; 
