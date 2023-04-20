@@ -117,13 +117,18 @@
         font-size: clamp(2rem, 4vw, 6rem);
     }  
     
+     .footer{
+        border-top: 12px white double;
+        font-size: clamp(1.4rem, 1vw, 3rem);
+    }
+    
 }
 
 @media screen and (min-device-width: 1024px) and (min-device-height: 400px){
     .main-layout {
-        overflow: hidden;
+        /*overflow: hidden;
         display: grid;
-        grid-template-rows: 12% 8% 8% 66% 6%;
+        grid-template-rows: 12% 8% 8% 66% 6%;*/
         margin-left: 20%;
         margin-right: 20%;
     }
@@ -180,8 +185,8 @@
         height: 40%;
     }
 
-    .footer{
+     .footer{
         border-top: 15px white double;
+        font-size: clamp(1.4rem, 1vw, 3rem);
     }
-     
 }
