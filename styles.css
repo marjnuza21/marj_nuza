@@ -108,3 +108,17 @@
         
     }
 }
+/*Additional media query for testing*/
+@media screen and (min-device-width: 1280px) and (min-device-height: 800px){
+    .marj {
+   
+        font-size: clamp(.5rem, 16vw, 18rem);
+
+    }
+    .nuza {
+        width: 60%;
+        height: 80%;
+        align-self: flex-start;
+        
+    }
+}
