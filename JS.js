@@ -24,11 +24,11 @@ function OpenTechTutorials() {
   location.href = "/marj_nuza/tech_world/tech_tutorial.html"
  }
  
-  function OpenTravel() {
+  function OpenGallery() {
   location.href = "/marj_nuza/travel.html"
  }
 
- function OpenMilestone() {
+ function OpenAboutMe() {
   location.href = "/marj_nuza/milestone.html"
  }
 
