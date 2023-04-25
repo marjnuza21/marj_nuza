@@ -25,7 +25,7 @@ function OpenTechTutorials() {
  }
  
   function OpenGallery() {
-  location.href = "/marj_nuza/travel.html"
+  location.href = "/marj_nuza/gallery.html"
  }
 
  function OpenAboutMe() {
