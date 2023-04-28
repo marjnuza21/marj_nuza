@@ -82,11 +82,20 @@
 }
 
 .menu img {
+    /*
     margin: 2%;
     margin-left: .5%;
     width: 11%;
     display: inline-block;
     border-radius: 3%;
+    */
+    margin: 2%;
+    margin-left: 1%;
+    width: 10%;
+    display: inline-block;
+    border-radius: 10%;
+    box-shadow: 2px 2px 1px 1px gray,
+                -2px -2px  gray;
 }
 /*
 .home {
