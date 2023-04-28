@@ -419,8 +419,8 @@
     
 @media screen and (min-device-width: 1280px) and (min-device-height: 800px){
      .main-layout {
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 25%;
+        margin-right: 25%;
     }
     .footer{
         border-top: 14px white double;
