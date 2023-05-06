@@ -139,7 +139,7 @@
     color: white;
     border-radius: 15px;
     font-size: 1rem;
-    height: 3%;
+    height: 2%;
     width: 75%;
     border-color: white;
     margin-top: 2%;
@@ -151,7 +151,7 @@
 .big_textarea {
     background-color: #181818;
     color: white;
-    height: 40%;
+    height: 30%;
     width: 90%;
     align-self: flex-start;
     border-radius: 15px;
