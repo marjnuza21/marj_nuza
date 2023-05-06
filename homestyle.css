@@ -140,7 +140,7 @@
     border-radius: 15px;
     font-size: 1rem;
     height: 4%;
-    width: 65%;
+    width: 75%;
     border-color: white;
     margin-top: 2%;
     padding: 3%;
@@ -164,13 +164,14 @@
 }
 
 .submit {
-    height: 30px;
-    width: 90px;
+    height: 35px;
+    width: 95px;
     background-color: #181818;
     color: white;
     border-radius: 15px;
     border-color: white;
     text-align: center;
+    font-size: 1rem;
     align-self: center;
     margin-top: 2%;
 }
