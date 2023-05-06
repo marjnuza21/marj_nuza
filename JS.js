@@ -47,7 +47,10 @@ function OpenTechTutorials() {
   window.open("https://github.com/marjnuza21");
  }
 
-
+ function OpenForms() {
+  document.getElementById("content_container").style.display ="none"
+  document.getElementById("formsubmit").style.display ="block"
+ }
 
 
 //This is for NotABot//
