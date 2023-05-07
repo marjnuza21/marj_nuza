@@ -33,6 +33,12 @@
     border-radius: 2%;
 }
 
+.intro {
+    text-align: center;
+    margin-left: 10%;
+    margin-right:10%;
+}
+
 .current_page {
     /*margin-top: 2%;*/
     padding: 2%;
