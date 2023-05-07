@@ -145,6 +145,8 @@
     margin-top: 2%;
     padding: 3%;
     font-family:'Raleway', sans-serif;
+    align-self: left;
+    text-algn: left;
     
 }
 
@@ -160,7 +162,9 @@
     border-color: white;
     margin-top: 2%;
     padding: 3%;
-    font-family:'Raleway', sans-serif; 
+    font-family:'Raleway', sans-serif;
+    align-self: left;
+    text-algn: left;
 }
 
 .submit {
@@ -172,7 +176,8 @@
     border-color: white;
     text-align: center;
     font-size: 1rem;
-    align-self: center;
+    align-self: right;
+    text-algn: right;
     margin-top: 2%;
 }
 
