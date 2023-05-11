@@ -88,6 +88,12 @@
         width: 8%;
     }
     
+    .intro {
+        text-align: center;
+        margin-left: 20%;
+        margin-right:20%;
+    }
+    
     .ig_post {
         margin-left: 15%;
         margin-right: 15%;
@@ -118,6 +124,12 @@
         margin-left: 2%;
         margin-right: 2%;
         width: 5%;
+    }
+    
+      .intro {
+        text-align: center;
+        margin-left: 30%;
+        margin-right: 30%;
     }
     
     .ig_post {
