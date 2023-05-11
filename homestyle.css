@@ -379,11 +379,14 @@
 
 }
 @media screen and (min-device-width: 1024px) and (min-device-height: 400px){
-
+    .* {
+        background-color: white;
+    }
     .main-layout {
         grid-template-rows: 23% 11% 60% 6%;
         margin-left: 20%;
         margin-right: 20%;
+        background-color: #181818;
     }
 
     .avatar img {
