@@ -16,6 +16,10 @@ function OpenTech() {
   location.href = "/marj_nuza/tech.html"
  }
 
+function OpenProjects() {
+  location.href = "/marj_nuza/projects.html"
+ }
+
 function OpenTechBlogs() {
   location.href = "/marj_nuza/tech_world/tech_blog.html"
  }
