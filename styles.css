@@ -98,12 +98,12 @@
 @media screen and (min-device-width: 768px) and (min-device-height: 400px){
     .marj {
    
-        font-size: clamp(.5rem, 8vw, 9rem);
+        font-size: clamp(.5rem, 12vw, 9rem);
 
     }
     .nuza {
-        width: 50%;
-        height: 70%;
+        width: 30%;
+        height: 50%;
         align-self: flex-start;
         
     }
