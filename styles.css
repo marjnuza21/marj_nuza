@@ -108,7 +108,7 @@
         
     }
 }
-/*Additional media query for testing*/
+/*Additional media query for testing
 @media screen and (min-device-width: 1280px) and (min-device-height: 800px){
     .marj {
    
@@ -126,3 +126,4 @@
     font-size: 2rem;
     text-shadow: 2px 3px 5px white;
 }
+*/
